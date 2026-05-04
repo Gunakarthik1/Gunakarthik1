@@ -1,9 +1,9 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Gunakarthik%20Naidu%20Lanka&fontSize=40&fontColor=fff&animation=twinkling&fontAlignY=32&desc=AI%20Engineer%20%7C%20Full-Stack%20%7C%20MS%20CS%20%40%20ASU&descAlignY=55&descSize=16" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Gunakarthik%20Naidu%20Lanka&fontSize=40&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Builder.%20Thinker.%20Occasional%20Debugger%20at%203am.&descAlignY=55&descSize=16" width="100%"/>
 
 <a href="https://github.com/Gunakarthik1">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=6E9FFF&center=true&vCenter=true&width=600&lines=MS+CS+%40+Arizona+State+University+%F0%9F%8E%93;Building+AI+Agents+that+do+real+work+%F0%9F%A4%96;Full-Stack+Engineer+%7C+GPA+4.0+%E2%AD%90;Open+to+Work+%7C+OPT+%2F+H-1B+Ready+%F0%9F%8C%8E" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=6E9FFF&center=true&vCenter=true&width=650&lines=BS+%2B+MS+CS+%40+ASU+%E2%80%94+Accelerated+%F0%9F%8E%93;Minor+in+Business+%7C+GPA+4.0+%E2%AD%90;I+ship+things+that+actually+work+%F0%9F%9A%80;Product-minded+engineer+%7C+OPT+%2F+H-1B+Ready+%F0%9F%8C%8E;From+idea+to+production+%E2%80%94+fast." alt="Typing SVG" />
 </a>
 
 <br/>
@@ -16,74 +16,72 @@
 &nbsp;
 <img src="https://img.shields.io/badge/GPA-4.0%2F4.0-brightgreen?style=flat-square"/>
 &nbsp;
-<img src="https://img.shields.io/badge/Location-Tempe%2C%20AZ-blue?style=flat-square"/>
+<img src="https://img.shields.io/badge/BS%20%2B%20MS-Accelerated%20%40%20ASU-blueviolet?style=flat-square"/>
 
 </div>
 
 ---
 
-## 🧠 About Me
+## 👋 About Me
 
 ```python
 class Gunakarthik:
-    name     = "Gunakarthik Naidu Lanka"
-    degree   = "MS Computer Science @ Arizona State University"
-    gpa      = 4.0
-    location = "Tempe, Arizona"
-    focus    = ["AI Agents", "Full-Stack Engineering", "LLM Systems"]
-    open_to  = ["SWE Roles", "AI/ML Roles", "OPT / H-1B Sponsorship"]
+    education  = "BS + MS CS @ Arizona State University (Accelerated)"
+    minor      = "Business"
+    gpa        = 4.0
+    location   = "Tempe, Arizona 🌵"
+    vibe       = ["ship fast", "think in systems", "build for real users"]
+    background = ["engineering", "product thinking", "a little business brain"]
+    open_to    = ["SWE", "Product Engineering", "Founding Eng", "OPT / H-1B"]
 
     def say_hi(self):
-        print("I build AI agents that do real work — not just demos.")
+        print("I like building things end-to-end — from the idea to prod.")
 ```
 
 ---
 
-## 🚀 Featured Projects
+## 🚀 Things I've Built
 
 <div align="center">
 
-| Project | Description | Stack | Live |
+| Project | What it does | Stack | Live |
 |--------|-------------|-------|------|
-| 🤖 [**HireAgent**](https://github.com/Gunakarthik1/HireAgent) | AI pipeline that scrapes 8+ job boards, scores jobs 1–10, tailors your resume, writes cover letters & auto-fills applications | Python · DeepSeek · Playwright · LaTeX | — |
-| 🚗 [**VinSight**](https://github.com/Gunakarthik1/Vin-Sight) | Full-stack vehicle valuation + zero-cloud LLM auditing — VIN decode, market value, recall lookup, 12-month depreciation | React · TypeScript · Express · DeepSeek-R1 · Ollama | [vin-sight.onrender.com](https://vin-sight.onrender.com/) |
-| 💼 [**Portfolio**](https://github.com/Gunakarthik1/portfolio) | Personal dev portfolio with smooth animations | Next.js · TypeScript · Tailwind · Framer Motion | — |
+| 🤖 [**HireAgent**](https://github.com/Gunakarthik1/HireAgent) | Scrapes 8+ job boards, scores roles, rewrites your resume, and auto-applies — end to end | Python · DeepSeek · Playwright · LaTeX | — |
+| 🚗 [**VinSight**](https://github.com/Gunakarthik1/Vin-Sight) | Point a VIN at it, get back market value, recall history, and a 12-month price curve | React · TypeScript · Express · Ollama | [↗ Live](https://vin-sight.onrender.com/) |
+| 💼 [**Portfolio**](https://github.com/Gunakarthik1/portfolio) | This very website. Smooth, fast, no fluff. | Next.js · Tailwind · Framer Motion | [↗ Live](https://gunakarthik-naidu-lanka-portfolio.vercel.app/) |
 
 </div>
 
----
-
 <details>
-<summary><b>🤖 HireAgent — 6-Stage AI Application Pipeline</b></summary>
+<summary><b>🤖 HireAgent — how it works</b></summary>
 <br>
 
 ```
-[Discover] → [Enrich] → [Score 1-10] → [Tailor Resume] → [Cover Letter] → [Auto-Apply]
+Discover → Enrich → Score (1-10) → Tailor Resume → Cover Letter → Auto-Apply
 ```
 
-- Scrapes **8+ job boards** for entry-level / OPT-eligible roles
-- **NVIDIA DeepSeek-V3** for scoring, **DeepSeek-R1** for resume tailoring
-- Vision-verified form filling via **Set-of-Marks + Llama-3.2-Vision**
-- Solves **hCaptcha, reCAPTCHA v2/Enterprise, Cloudflare Turnstile, Arkose Labs**
-- Real-time **Telegram notifications** on application status
+- Hits **8+ job boards**, filters for entry-level / OPT-eligible roles
+- **DeepSeek-V3** scores, **DeepSeek-R1** rewrites resume bullets to match JD
+- Vision model fills forms — handles CAPTCHAs, SSO gates, email walls
+- Sends **Telegram pings** when an app goes through
 
 </details>
 
 <details>
-<summary><b>🚗 VinSight — Zero-Cloud Vehicle Intelligence</b></summary>
+<summary><b>🚗 VinSight — under the hood</b></summary>
 <br>
 
-- Locally hosted **DeepSeek-R1/Gemma 3** — 100% data privacy, zero cloud cost
-- **Q4/Q5 GGUF quantization** on Apple Silicon (M1 Pro), fits in 16GB VRAM
-- Custom **KV-cache management** cuts TTFT by 30%
-- Decodes any **17-digit VIN** via NHTSA, pulls live recall data
-- **12-month depreciation curves** + hold/sell recommendations
+- Runs a **local LLM** (DeepSeek-R1 / Gemma 3) — zero data leaves your machine
+- **GGUF Q4/Q5 quantization** so it fits on an M1 Pro (16GB)
+- Custom KV-cache cuts **time-to-first-token by 30%**
+- Pulls **live NHTSA recall data**, calculates brand-specific depreciation
+- Gives you a **hold vs sell recommendation** with a 12-month value chart
 
 </details>
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Stack
 
 <div align="center">
 
@@ -94,7 +92,7 @@ class Gunakarthik:
 
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 
 ![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white)
@@ -106,7 +104,7 @@ class Gunakarthik:
 
 ---
 
-## 📊 GitHub Stats
+## 📊 Stats
 
 <div align="center">
 
@@ -124,7 +122,7 @@ class Gunakarthik:
 
 ---
 
-## 🐍 Contribution Snake
+## 🐍 Contributions
 
 <div align="center">
   <picture>
@@ -136,11 +134,11 @@ class Gunakarthik:
 
 ---
 
-## 🎯 Currently
+## 🎯 Right Now
 
-- 🎓 Finishing **MS CS @ ASU** (Expected May 2026)
-- 🤖 Building **AI agents** that automate real-world workflows
-- 🌎 Open to **Full-Stack / AI Engineering roles** — OPT / H-1B sponsorship
+- 🎓 Wrapping up **BS + MS CS @ ASU** (Accelerated, Minor in Business — May 2026)
+- 🔨 Building things that feel like products, not side projects
+- 🌎 Open to roles — **SWE, product-eng, founding team** — OPT / H-1B
 - 📬 **gunakarthiknaidu@gmail.com**
 
 ---
