@@ -134,6 +134,41 @@ Discover → Enrich → Score (1-10) → Tailor Resume → Cover Letter → Auto
 
 ---
 
+## 🌱 Open Source
+
+<table>
+<tr>
+<td width="60px" align="center">🔬</td>
+<td>
+
+**[scikit-learn Contributor](https://github.com/scikit-learn/scikit-learn/pull/34685)** — Python ML library · 60k+ ⭐
+
+Added `elimination_order_` attribute to `RFECV` ([PR #34685](https://github.com/scikit-learn/scikit-learn/pull/34685)) exposing per-step feature elimination order — previously discarded information the library offered no way to access. Set up the dev environment via Docker + micromamba, debugged a BLAS/aarch64 incompatibility on Apple Silicon, built from source, and submitted following scikit-learn's contribution guidelines (changelog, docstring conventions). **60/60 tests passing, all CI checks green.**
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🏅 Certifications
+
+<div align="center">
+
+<a href="https://catalog-education.oracle.com/ords/certview/sharebadge?id=D6E7676E2A49E0DC47E89DF8FB620DBC8DE1C3AAF8F18097DE768EF2809FBAC7">
+  <img src="https://img.shields.io/badge/Oracle-Agentic%20AI%20Foundations%20Associate-F80000?style=for-the-badge&logo=oracle&logoColor=white" alt="Oracle Agentic AI Certified Foundations Associate"/>
+</a>
+
+</div>
+
+| Badge | Certification | Issuer | Expires |
+|-------|--------------|--------|---------|
+| 🤖 | [**Agentic AI Certified Foundations Associate**](https://catalog-education.oracle.com/ords/certview/sharebadge?id=D6E7676E2A49E0DC47E89DF8FB620DBC8DE1C3AAF8F18097DE768EF2809FBAC7) | Oracle | Aug 2028 |
+
+> Built agents from scratch using LangChain, OpenAI Agents SDK, and real MCP servers. Deployed on OCI Enterprise AI Agents and Oracle AI Database.
+
+---
+
 ## 🎯 Right Now
 
 - 🎓 Wrapping up **BS + MS CS @ ASU** (Accelerated, Minor in Business — May 2026)
