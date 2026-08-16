@@ -46,11 +46,31 @@ class Gunakarthik:
 
 | Project | What it does | Stack | Live |
 |--------|-------------|-------|------|
+| ⚡ [**GPU Cluster Telemetry**](https://github.com/Gunakarthik1/gpu-cluster-telemetry) | Distributed telemetry daemon for AI/HPC nodes — collects GPU & host metrics, runs Pandas analytics, fires automated remediation | Python · FastAPI · Pandas · Prometheus · Docker | [↗ Demo](https://gunakarthik1.github.io/gpu-cluster-telemetry/frontend/) |
 | 🤖 [**HireAgent**](https://github.com/Gunakarthik1/HireAgent) | Scrapes 8+ job boards, scores roles, rewrites your resume, and auto-applies — end to end | Python · DeepSeek · Playwright · LaTeX | — |
 | 🚗 [**VinSight**](https://github.com/Gunakarthik1/Vin-Sight) | Point a VIN at it, get back market value, recall history, and a 12-month price curve | React · TypeScript · Express · Ollama | [↗ Live](https://vin-sight.onrender.com/) |
 | 💼 [**Portfolio**](https://github.com/Gunakarthik1/portfolio) | This very website. Smooth, fast, no fluff. | Next.js · Tailwind · Framer Motion | [↗ Live](https://gunakarthik-naidu-lanka-portfolio.vercel.app/) |
 
 </div>
+
+<details>
+<summary><b>⚡ GPU Cluster Telemetry — how it works</b></summary>
+<br>
+
+```
+pynvml + psutil → POST /api/v1/telemetry → Pandas analytics → Prometheus → Grafana
+                                                    ↓
+                                         ISOLATE_NODE / FLUSH_TEMP_CACHE → Agent
+```
+
+- **pynvml** samples GPU temp, VRAM, power draw every 5s — falls back to a realistic H100 simulation on non-NVIDIA machines
+- **FastAPI** gateway validates payloads with Pydantic v2, persists to SQLite via SQLAlchemy
+- **Pandas sliding-window** detects thermal breaches (>80°C), VRAM saturation (>95%), TCP TIME_WAIT spikes (>100)
+- Automatically dispatches `ISOLATE_NODE` or `FLUSH_TEMP_CACHE` back to the agent over HTTP
+- **Prometheus** scrapes `/metrics` every 10s — 7 gauges/counters across GPU and host dimensions
+- **60 pytest tests** — unit, integration, mocked HTTP — zero external dependencies needed
+
+</details>
 
 <details>
 <summary><b>🤖 HireAgent — how it works</b></summary>
@@ -97,6 +117,8 @@ Discover → Enrich → Score (1-10) → Tailor Resume → Cover Letter → Auto
 
 ![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
 ![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
 
