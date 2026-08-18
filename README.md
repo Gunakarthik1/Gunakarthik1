@@ -290,14 +290,21 @@ Added `elimination_order_` attribute to `RFECV` ([PR #34685](https://github.com/
 <a href="https://catalog-education.oracle.com/ords/certview/sharebadge?id=D6E7676E2A49E0DC47E89DF8FB620DBC8DE1C3AAF8F18097DE768EF2809FBAC7">
   <img src="https://img.shields.io/badge/Oracle-Agentic%20AI%20Foundations%20Associate-F80000?style=for-the-badge&logo=oracle&logoColor=white" alt="Oracle Agentic AI Certified Foundations Associate"/>
 </a>
+&nbsp;
+<a href="https://certificates.codepath.org/a304d57c-ff29-48a7-8d48-8263739e3a7e.pdf">
+  <img src="https://img.shields.io/badge/CodePath-AI%20Open%20Source%20Capstone%20%E2%80%94%20Honors-00C853?style=for-the-badge&logo=codepath&logoColor=white" alt="CodePath AI Open Source Capstone Certificate"/>
+</a>
 
 </div>
 
-| Badge | Certification | Issuer | Expires |
-|-------|--------------|--------|---------|
-| 🤖 | [**Agentic AI Certified Foundations Associate**](https://catalog-education.oracle.com/ords/certview/sharebadge?id=D6E7676E2A49E0DC47E89DF8FB620DBC8DE1C3AAF8F18097DE768EF2809FBAC7) | Oracle | Aug 2028 |
+| Badge | Certification | Issuer | Issued | Expires |
+|-------|--------------|--------|--------|---------|
+| 🤖 | [**Agentic AI Certified Foundations Associate**](https://catalog-education.oracle.com/ords/certview/sharebadge?id=D6E7676E2A49E0DC47E89DF8FB620DBC8DE1C3AAF8F18097DE768EF2809FBAC7) | Oracle | 2024 | Aug 2028 |
+| 🏆 | [**AI Open Source Capstone Certificate — Honors**](https://certificates.codepath.org/a304d57c-ff29-48a7-8d48-8263739e3a7e.pdf) | CodePath | Aug 2026 | — |
 
-> Built agents from scratch using LangChain, OpenAI Agents SDK, and real MCP servers. Deployed on OCI Enterprise AI Agents and Oracle AI Database.
+> **Oracle:** Built agents from scratch using LangChain, OpenAI Agents SDK, and real MCP servers. Deployed on OCI Enterprise AI Agents and Oracle AI Database.
+
+> **CodePath (Honors):** Outstanding performance in the AI Open Source Capstone Course — Summer 2026 cohort. Certificate ID: 421975.
 
 ---
 
