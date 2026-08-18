@@ -90,9 +90,9 @@ class Gunakarthik:
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Gunakarthik1&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&rank_icon=github&cache_seconds=1800" height="165"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Gunakarthik1&theme=tokyonight" height="165"/>
 &nbsp;
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gunakarthik1&layout=compact&theme=tokyonight&hide_border=true&langs_count=6&cache_seconds=1800&exclude_repo=Gunakarthik1" height="165"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Gunakarthik1&theme=tokyonight" height="165"/>
 
 </div>
 
