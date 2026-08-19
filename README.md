@@ -46,16 +46,16 @@ class Gunakarthik:
 
 | Project | What it does | Stack | Live |
 |--------|-------------|-------|------|
-| ⚡ [**GPU Cluster Telemetry**](https://github.com/Gunakarthik1/gpu-cluster-telemetry) | Distributed telemetry daemon for AI/HPC nodes — collects GPU & host metrics, runs Pandas analytics, fires automated remediation | Python · FastAPI · Pandas · Prometheus · Docker | [↗ Demo](https://gpu-cluster-telemetry-1.onrender.com) |
+| ⚡ [**GPU Cluster Telemetry**](https://github.com/Gunakarthik1/gpu-cluster-telemetry) | Distributed telemetry daemon for AI/HPC nodes — collects GPU & host metrics, runs Pandas analytics, fires automated remediation | Python · FastAPI · Pandas · Prometheus · Docker | [↗ Live](https://gpu-cluster-telemetry-1.onrender.com) |
 | 🤖 [**HireAgent**](https://github.com/Gunakarthik1/HireAgent) | Scrapes 8+ job boards, scores roles, rewrites your resume, and auto-applies — end to end | Python · DeepSeek · Playwright · LaTeX | — |
 | 🚗 [**VinSight**](https://github.com/Gunakarthik1/Vin-Sight) | Point a VIN at it, get back market value, recall history, and a 12-month price curve | React · TypeScript · Express · Ollama | [↗ Live](https://vin-sight.onrender.com/) |
 | 💼 [**Portfolio**](https://github.com/Gunakarthik1/portfolio) | This very website. Smooth, fast, no fluff. | Next.js · Tailwind · Framer Motion | [↗ Live](https://gunakarthik-naidu-lanka-portfolio.vercel.app/) |
-| 🔍 [**Hybrid-RAG Gateway**](https://github.com/Gunakarthik1/hybrid-rag-gateway) | Production RAG API with BM25 + FAISS retrieval, Reciprocal Rank Fusion reranking, and a semantic cache (cosine threshold 0.96) that eliminates redundant LLM calls — streams via SSE | Python · FastAPI · FAISS · BM25 · Docker | [↗ Demo](https://hybrid-rag-gateway.onrender.com) |
-| 🧠 [**LLM Inference Engine**](https://github.com/Gunakarthik1/llm-inference-engine) | High-throughput serving engine with PagedAttention KV-cache simulation, continuous batching scheduler, real-time WebSocket dashboard, and p50/p95/p99 TTFT tracking | Python · FastAPI · WebSocket · Prometheus · asyncio | [↗ Demo](https://llm-inference-engine.onrender.com) |
-| 🏗️ [**Lakehouse ETL Pipeline**](https://github.com/Gunakarthik1/lakehouse-etl-pipeline) | Medallion architecture ETL (Bronze/Silver/Gold) with 6 configurable data quality rules, quarantine layer, lineage tracking, and Parquet-backed aggregations | Python · FastAPI · Pandas · Parquet · SQLite | [↗ Demo](https://lakehouse-etl-pipeline.onrender.com) |
-| 🔒 [**AI Privacy Gateway**](https://github.com/Gunakarthik1/ai-privacy-gateway) | 7-stage AI proxy: rate limiting, budget enforcement, prompt injection detection, PII masking (SSN/email/phone/card with Luhn), LLM call, unmasking, and structured audit logging | Python · FastAPI · SQLite · Pydantic · Docker | [↗ Demo](https://ai-privacy-gateway-0yid.onrender.com) |
-| 📊 [**LLM Eval Harness**](https://github.com/Gunakarthik1/llm-eval-harness) | Rubric-based LLM-as-a-Judge framework scoring faithfulness, relevance, coherence, and completeness with adversarial test generation and HTML/JSON reporting | Python · FastAPI · Pydantic · asyncio · Docker | [↗ Demo](https://llm-eval-harness.onrender.com) |
-| 🏘️ [**NeighborhoodPulse**](https://github.com/Gunakarthik1/neighborhood-pulse) | Concurrent multi-agent platform gathering FEMA flood data, zoning codes, and climate risk in parallel — synthesizes weighted risk scores (0–100) with citations and recommendations | Python · FastAPI · asyncio · Pydantic · SQLite | [↗ Demo](https://neighborhood-pulse.onrender.com) |
+| 🔍 [**Hybrid-RAG Gateway**](https://github.com/Gunakarthik1/hybrid-rag-gateway) | Production RAG API with BM25 + FAISS retrieval, Reciprocal Rank Fusion reranking, and a semantic cache (cosine threshold 0.96) that eliminates redundant LLM calls — streams via SSE | Python · FastAPI · FAISS · BM25 · Docker | [↗ Live](https://hybrid-rag-gateway.onrender.com) |
+| 🧠 [**LLM Inference Engine**](https://github.com/Gunakarthik1/llm-inference-engine) | High-throughput serving engine with PagedAttention KV-cache simulation, continuous batching scheduler, real-time WebSocket dashboard, and p50/p95/p99 TTFT tracking | Python · FastAPI · WebSocket · Prometheus · asyncio | [↗ Live](https://llm-inference-engine.onrender.com) |
+| 🏗️ [**Lakehouse ETL Pipeline**](https://github.com/Gunakarthik1/lakehouse-etl-pipeline) | Medallion architecture ETL (Bronze/Silver/Gold) with 6 configurable data quality rules, quarantine layer, lineage tracking, and Parquet-backed aggregations | Python · FastAPI · Pandas · Parquet · SQLite | [↗ Live](https://lakehouse-etl-pipeline.onrender.com) |
+| 🔒 [**AI Privacy Gateway**](https://github.com/Gunakarthik1/ai-privacy-gateway) | 7-stage AI proxy: rate limiting, budget enforcement, prompt injection detection, PII masking (SSN/email/phone/card with Luhn), LLM call, unmasking, and structured audit logging | Python · FastAPI · SQLite · Pydantic · Docker | [↗ Live](https://ai-privacy-gateway-0yid.onrender.com) |
+| 📊 [**LLM Eval Harness**](https://github.com/Gunakarthik1/llm-eval-harness) | Rubric-based LLM-as-a-Judge framework scoring faithfulness, relevance, coherence, and completeness with adversarial test generation and HTML/JSON reporting | Python · FastAPI · Pydantic · asyncio · Docker | [↗ Live](https://llm-eval-harness.onrender.com) |
+| 🏘️ [**NeighborhoodPulse**](https://github.com/Gunakarthik1/neighborhood-pulse) | Concurrent multi-agent platform gathering FEMA flood data, zoning codes, and climate risk in parallel — synthesizes weighted risk scores (0–100) with citations and recommendations | Python · FastAPI · asyncio · Pydantic · SQLite | [↗ Live](https://neighborhood-pulse.onrender.com) |
 
 </div>
 
@@ -92,7 +92,7 @@ class Gunakarthik:
 
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Gunakarthik1&theme=tokyonight" height="165"/>
 &nbsp;
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Gunakarthik1&theme=tokyonight" height="165"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gunakarthik1&layout=compact&theme=tokyonight&hide_border=true&langs_count=6&card_width=300" height="165"/>
 
 </div>
 
