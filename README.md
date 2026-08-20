@@ -162,7 +162,7 @@ Added `elimination_order_` attribute to `RFECV` ([PR #34685](https://github.com/
 </a>
 &nbsp;
 <a href="https://coursera.org/share/a31e29998006997a54cb2d4a27bd8776">
-  <img src="https://img.shields.io/badge/Simplilearn-Foundations%20of%20SRE-FF6B35?style=for-the-badge&logo=coursera&logoColor=white" alt="Simplilearn Foundations of Site Reliability Engineering"/>
+  <img src="https://img.shields.io/badge/Simplilearn-Foundations%20of%20SRE-FF6B35?style=for-the-badge&logo=simplilearn&logoColor=white" alt="Simplilearn Foundations of Site Reliability Engineering"/>
 </a>
 
 </div>
