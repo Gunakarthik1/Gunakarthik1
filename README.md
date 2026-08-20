@@ -148,6 +148,22 @@ Added `elimination_order_` attribute to `RFECV` ([PR #34685](https://github.com/
 <a href="https://coursera.org/verify/K6LYXGBG3024">
   <img src="https://img.shields.io/badge/Google%20Cloud-AI%20Infrastructure%3A%20Intro%20to%20AI%20Hypercomputer-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white" alt="Google Cloud AI Infrastructure Certificate"/>
 </a>
+&nbsp;
+<a href="https://coursera.org/share/d4cb2ceea8d5be8ee2809df645706e48">
+  <img src="https://img.shields.io/badge/NVIDIA-AI%20Infra%20%26%20Ops%20Fundamentals-76B900?style=for-the-badge&logo=nvidia&logoColor=white" alt="NVIDIA AI Infrastructure and Operations Fundamentals"/>
+</a>
+&nbsp;
+<a href="https://coursera.org/share/3d974fc3b9a3abd143737e1ac93ddc93">
+  <img src="https://img.shields.io/badge/Google%20Cloud-AI%20Infrastructure%3A%20Cloud%20TPUs-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white" alt="Google Cloud AI Infrastructure: Cloud TPUs"/>
+</a>
+&nbsp;
+<a href="https://coursera.org/share/598229a30ecac27f2676cd4a3e4dc247">
+  <img src="https://img.shields.io/badge/Google%20Cloud-AI%20Infrastructure%3A%20Cloud%20GPUs-34A853?style=for-the-badge&logo=googlecloud&logoColor=white" alt="Google Cloud AI Infrastructure: Cloud GPUs"/>
+</a>
+&nbsp;
+<a href="https://coursera.org/share/a31e29998006997a54cb2d4a27bd8776">
+  <img src="https://img.shields.io/badge/Simplilearn-Foundations%20of%20SRE-FF6B35?style=for-the-badge&logo=coursera&logoColor=white" alt="Simplilearn Foundations of Site Reliability Engineering"/>
+</a>
 
 </div>
 
@@ -156,12 +172,24 @@ Added `elimination_order_` attribute to `RFECV` ([PR #34685](https://github.com/
 | 🤖 | [**Agentic AI Certified Foundations Associate**](https://catalog-education.oracle.com/ords/certview/sharebadge?id=D6E7676E2A49E0DC47E89DF8FB620DBC8DE1C3AAF8F18097DE768EF2809FBAC7) | Oracle | 2024 | Aug 2028 |
 | 🏆 | [**AI Open Source Capstone Certificate — Honors**](https://certificates.codepath.org/a304d57c-ff29-48a7-8d48-8263739e3a7e.pdf) | CodePath | Aug 2026 | — |
 | ☁️ | [**AI Infrastructure: Introduction to AI Hypercomputer**](https://coursera.org/verify/K6LYXGBG3024) | Google Cloud | Aug 2026 | — |
+| 🟢 | [**AI Infrastructure and Operations Fundamentals**](https://coursera.org/share/d4cb2ceea8d5be8ee2809df645706e48) | NVIDIA | Aug 2026 | — |
+| 🔵 | [**AI Infrastructure: Cloud TPUs**](https://coursera.org/share/3d974fc3b9a3abd143737e1ac93ddc93) | Google Cloud | Aug 2026 | — |
+| 🔵 | [**AI Infrastructure: Cloud GPUs**](https://coursera.org/share/598229a30ecac27f2676cd4a3e4dc247) | Google Cloud | Aug 2026 | — |
+| 🔶 | [**Foundations of Site Reliability Engineering**](https://coursera.org/share/a31e29998006997a54cb2d4a27bd8776) | Simplilearn | Aug 2026 | — |
 
 > **Oracle:** Built agents from scratch using LangChain, OpenAI Agents SDK, and real MCP servers. Deployed on OCI Enterprise AI Agents and Oracle AI Database.
 
 > **CodePath (Honors):** Outstanding performance in the AI Open Source Capstone Course — Summer 2026 cohort. Certificate ID: 421975.
 
-> **Google Cloud:** AI Hypercomputer architecture — TPU/GPU cluster design, high-bandwidth interconnects, distributed memory systems, and Google's AI-optimized infrastructure for training frontier models. Credential ID: K6LYXGBG3024.
+> **Google Cloud (Hypercomputer):** AI Hypercomputer architecture — TPU/GPU cluster design, high-bandwidth interconnects, distributed memory systems, and Google's AI-optimized infrastructure for training frontier models. Credential ID: K6LYXGBG3024.
+
+> **NVIDIA (96%):** GPU architectures, AI data center design, cluster networking, storage systems, and operational best practices for large-scale AI workloads.
+
+> **Google Cloud — Cloud TPUs (100%):** TPU v4/v5 hardware design, systolic array computation, XLA compilation, distributed TPU pod configurations, and large-scale ML training on Google's TPU infrastructure.
+
+> **Google Cloud — Cloud GPUs (100%):** NVIDIA A100/H100 provisioning on GCP, NVLink interconnects, CUDA/cuDNN optimization, multi-GPU distributed training, and cost-efficient GPU cluster management.
+
+> **Simplilearn — SRE (99.22%):** SLOs/SLAs/SLIs, error budgets, toil reduction, incident management, blameless postmortems, capacity planning, and SRE operational principles at scale.
 
 ---
 
