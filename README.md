@@ -90,15 +90,15 @@ class Gunakarthik:
 
 <div align="center">
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Gunakarthik1&theme=tokyonight" height="165"/>
+<img src="https://github-readme-stats.vercel.app/api?username=Gunakarthik1&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" height="165"/>
 &nbsp;
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gunakarthik1&layout=compact&theme=tokyonight&hide_border=true&langs_count=6&card_width=300" height="165"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gunakarthik1&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&card_width=320&hide=jupyter%20notebook" height="165"/>
 
 </div>
 
 <div align="center">
 
-<img src="https://github-readme-streak-stats.herokuapp.com?user=Gunakarthik1&theme=tokyonight&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" width="55%"/>
+<img src="https://streak-stats.demolab.com?user=Gunakarthik1&theme=tokyonight&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" width="55%"/>
 
 </div>
 
